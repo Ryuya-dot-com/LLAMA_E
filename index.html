@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>LLAMA E 4.0.6 local</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js" defer></script>
+  <link rel="stylesheet" href="local.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <h1 id="test-title">LLAMA E</h1>
+        <div id="version-label" class="version">Version 4.0.6 local</div>
+      </div>
+      <div class="header-actions">
+        <button id="language-toggle" class="btn btn-secondary" type="button">English</button>
+      </div>
+    </header>
+    <div id="app"></div>
+    <footer><span id="footer-text"></span></footer>
+  </main>
+  <script src="config.js" defer></script>
+  <script src="local.js" defer></script>
+</body>
+</html>
